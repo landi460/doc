@@ -1,0 +1,132 @@
+/home/lp19.26/Desktop/lab1/fa.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/fa.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fa
+-- Compiling architecture behavioral of fa
+-- Compiling configuration cfg_fa_behavioral
+-- Loading entity fa
+-- Loading architecture behavioral of fa
+
+} {} {}} /home/lp19.26/Desktop/lab1/rca_syn.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/rca_syn.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture structural of rca
+-- Compiling configuration cfg_rca_structural
+-- Loading entity rca
+-- Loading architecture structural of rca
+-- Loading entity fa
+-- Loading configuration cfg_fa_behavioral
+
+} {} {}} /home/lp19.26/Desktop/lab1/ha.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/ha.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ha
+-- Compiling architecture behavioral of ha
+-- Compiling configuration cfg_ha_behavioral
+-- Loading entity ha
+-- Loading architecture behavioral of ha
+
+} {} {}} /home/lp19.26/Desktop/lab1/fd.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/fd.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fd
+-- Compiling architecture pippo of fd
+-- Compiling architecture pluto of fd
+-- Loading entity fd
+-- Compiling configuration cfg_fd_pippo
+-- Loading entity fd
+-- Loading architecture pippo of fd
+-- Compiling configuration cfg_fd_pluto
+-- Loading entity fd
+-- Loading architecture pluto of fd
+
+} {} {}} /home/lp19.26/Desktop/lab1/tb_rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/tb_rca.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity tbrca
+-- Compiling architecture test of tbrca
+
+} {} {}} /home/lp19.26/Desktop/lab1/tb_counter.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/tb_counter.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity testcount
+-- Compiling architecture test of testcount
+-- Compiling configuration cfg_testcount
+-- Loading entity testcount
+-- Loading architecture test of testcount
+-- Loading entity count
+-- Loading configuration cfg_count_structural
+
+} {} {}} /home/lp19.26/Desktop/lab1/rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/rca.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture structural of rca
+-- Compiling configuration cfg_rca_structural
+-- Loading entity rca
+-- Loading architecture structural of rca
+-- Loading entity fa
+-- Loading configuration cfg_fa_behavioral
+
+} {} {}} /home/lp19.26/Desktop/lab1/lfsr.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/lfsr.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity lfsr16
+-- Compiling architecture rtl of lfsr16
+
+} {} {}} /home/lp19.26/Desktop/lab1/counter.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/counter.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity count
+-- Compiling architecture structural of count
+-- Compiling configuration cfg_count_structural
+-- Loading entity count
+-- Loading architecture structural of count
+-- Loading entity ha
+-- Loading entity fd
+-- Loading configuration cfg_ha_behavioral
+-- Loading configuration cfg_fd_pluto
+
+} {} {}} /home/lp19.26/Desktop/lab1/fa_syn.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/fa_syn.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fa
+-- Compiling architecture behavioral of fa
+-- Compiling configuration cfg_fa_behavioral
+-- Loading entity fa
+-- Loading architecture behavioral of fa
+
+} {} {}} /home/lp19.26/Desktop/lab1/tb_prob.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/tb_prob.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Compiling entity tbprob
+-- Compiling architecture test of tbprob
+
+} {} {}} /home/lp19.26/Desktop/lab1/tb_mux21_glitch.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/tb_mux21_glitch.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tbmux21bis
+-- Compiling architecture test of tbmux21bis
+-- Compiling configuration mux21bistest
+-- Loading entity tbmux21bis
+-- Loading architecture test of tbmux21bis
+
+} {} {}}

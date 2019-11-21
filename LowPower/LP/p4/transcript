@@ -1,0 +1,241 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project final
+do fill_forward.scr
+# ADDRESS
+# vsim -L /software/dk/nangate45/verilog/msim6.5c -voptargs=+acc -sdftyp /testbench/UBUSNORM=busnormal.sdf -sdftyp /testbench/UBUSINV=businvbeh.sdf -sdftyp /testbench/UBUSTRAN=transbased.sdf -sdftyp /testbench/UBUSGRAY=grayencoder.sdf -sdftyp /testbench/UBUST0=t0encdec.sdf -t 1ps work.testbench 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.testbench(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.busnormal(behavioral)#1
+# Loading work.businvbeh(behavioral)#1
+# Loading work.transbased(behavioral)#1
+# Loading work.grayencoder(behavioral)#1
+# Loading work.t0encdec(behavioral)#1
+# Loading instances from busnormal.sdf
+# ** Error: (vsim-SDF-3250) busnormal.sdf(19): Failed to find INSTANCE 'C_reg_0_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(22): Failed to find INSTANCE 'C_reg_1_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(25): Failed to find INSTANCE 'C_reg_2_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(28): Failed to find INSTANCE 'C_reg_3_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(31): Failed to find INSTANCE 'C_reg_4_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(34): Failed to find INSTANCE 'C_reg_5_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(37): Failed to find INSTANCE 'C_reg_6_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(40): Failed to find INSTANCE 'C_reg_7_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(18): Failed to find INSTANCE 'U4'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(19): Failed to find INSTANCE 'buss_reg_0_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(22): Failed to find INSTANCE 'buss_reg_1_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(25): Failed to find INSTANCE 'buss_reg_2_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(28): Failed to find INSTANCE 'buss_reg_3_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(31): Failed to find INSTANCE 'buss_reg_4_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(34): Failed to find INSTANCE 'buss_reg_5_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(37): Failed to find INSTANCE 'buss_reg_6_'.
+# ** Error: (vsim-SDF-3250) busnormal.sdf(40): Failed to find INSTANCE 'buss_reg_7_'.
+# Loading instances from businvbeh.sdf
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(65): Failed to find INSTANCE 'AOLD_reg_0_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(63): Failed to find INSTANCE 'AOLD_reg_1_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(19): Failed to find INSTANCE 'AOLD_reg_2_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(21): Failed to find INSTANCE 'AOLD_reg_3_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(23): Failed to find INSTANCE 'AOLD_reg_4_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(25): Failed to find INSTANCE 'AOLD_reg_5_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(27): Failed to find INSTANCE 'AOLD_reg_6_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(29): Failed to find INSTANCE 'AOLD_reg_7_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(113): Failed to find INSTANCE 'C_reg_0_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(116): Failed to find INSTANCE 'C_reg_1_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(119): Failed to find INSTANCE 'C_reg_2_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(122): Failed to find INSTANCE 'C_reg_3_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(125): Failed to find INSTANCE 'C_reg_4_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(128): Failed to find INSTANCE 'C_reg_5_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(131): Failed to find INSTANCE 'C_reg_6_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(134): Failed to find INSTANCE 'C_reg_7_'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(89): Failed to find INSTANCE 'U100'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(87): Failed to find INSTANCE 'U101'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(86): Failed to find INSTANCE 'U102'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(84): Failed to find INSTANCE 'U103'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(82): Failed to find INSTANCE 'U104'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(80): Failed to find INSTANCE 'U105'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(78): Failed to find INSTANCE 'U106'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(76): Failed to find INSTANCE 'U107'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(74): Failed to find INSTANCE 'U108'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(72): Failed to find INSTANCE 'U109'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(70): Failed to find INSTANCE 'U110'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(68): Failed to find INSTANCE 'U111'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(66): Failed to find INSTANCE 'U112'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(64): Failed to find INSTANCE 'U113'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(62): Failed to find INSTANCE 'U114'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(60): Failed to find INSTANCE 'U115'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(58): Failed to find INSTANCE 'U116'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(56): Failed to find INSTANCE 'U117'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(54): Failed to find INSTANCE 'U118'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(52): Failed to find INSTANCE 'U119'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(50): Failed to find INSTANCE 'U120'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(48): Failed to find INSTANCE 'U121'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(46): Failed to find INSTANCE 'U122'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(45): Failed to find INSTANCE 'U123'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(42): Failed to find INSTANCE 'U124'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(39): Failed to find INSTANCE 'U125'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(37): Failed to find INSTANCE 'U126'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(33): Failed to find INSTANCE 'U127'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(31): Failed to find INSTANCE 'U128'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(30): Failed to find INSTANCE 'U129'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(28): Failed to find INSTANCE 'U130'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(26): Failed to find INSTANCE 'U131'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(24): Failed to find INSTANCE 'U132'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(22): Failed to find INSTANCE 'U133'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(20): Failed to find INSTANCE 'U134'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(18): Failed to find INSTANCE 'U135'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(39): Failed to find INSTANCE 'U98'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(41): Failed to find INSTANCE 'U99'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(32): Failed to find INSTANCE 'add_3_root_add_51_I8_aco_U1_0'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(38): Failed to find INSTANCE 'add_3_root_add_51_I8_aco_U1_1'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(98): Failed to find INSTANCE 'add_4_root_add_51_I8_aco_U1_0'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(30): Failed to find INSTANCE 'add_51_I9_U1_1_1'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(33): Failed to find INSTANCE 'add_51_I9_U1_1_2'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(35): Failed to find INSTANCE 'add_51_I9_U1_1_3'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(88): Failed to find INSTANCE 'add_5_root_add_51_I8_aco_U1_0'.
+# ** Error: (vsim-SDF-3250) businvbeh.sdf(44): Failed to find INSTANCE 'invold_reg'.
+# Loading instances from transbased.sdf
+# ** Error: (vsim-SDF-3250) transbased.sdf(18): Failed to find INSTANCE 'CENCOLD_reg_0_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(20): Failed to find INSTANCE 'CENCOLD_reg_1_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(22): Failed to find INSTANCE 'CENCOLD_reg_2_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(24): Failed to find INSTANCE 'CENCOLD_reg_3_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(26): Failed to find INSTANCE 'CENCOLD_reg_4_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(28): Failed to find INSTANCE 'CENCOLD_reg_5_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(30): Failed to find INSTANCE 'CENCOLD_reg_6_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(32): Failed to find INSTANCE 'CENCOLD_reg_7_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(19): Failed to find INSTANCE 'CENC_reg_0_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(21): Failed to find INSTANCE 'CENC_reg_1_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(23): Failed to find INSTANCE 'CENC_reg_2_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(25): Failed to find INSTANCE 'CENC_reg_3_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(27): Failed to find INSTANCE 'CENC_reg_4_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(29): Failed to find INSTANCE 'CENC_reg_5_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(31): Failed to find INSTANCE 'CENC_reg_6_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(33): Failed to find INSTANCE 'CENC_reg_7_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(50): Failed to find INSTANCE 'U20'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(48): Failed to find INSTANCE 'U21'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(46): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(44): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(42): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(40): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(38): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(36): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(34): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(32): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(30): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(28): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(26): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(24): Failed to find INSTANCE 'U33'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(22): Failed to find INSTANCE 'U34'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(20): Failed to find INSTANCE 'U35'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(18): Failed to find INSTANCE 'U36'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(48): Failed to find INSTANCE 'buss_reg_0_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(46): Failed to find INSTANCE 'buss_reg_1_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(44): Failed to find INSTANCE 'buss_reg_2_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(42): Failed to find INSTANCE 'buss_reg_3_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(40): Failed to find INSTANCE 'buss_reg_4_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(38): Failed to find INSTANCE 'buss_reg_5_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(36): Failed to find INSTANCE 'buss_reg_6_'.
+# ** Error: (vsim-SDF-3250) transbased.sdf(34): Failed to find INSTANCE 'buss_reg_7_'.
+# Loading instances from grayencoder.sdf
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(30): Failed to find INSTANCE 'BTMP_reg_0_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(28): Failed to find INSTANCE 'BTMP_reg_1_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(26): Failed to find INSTANCE 'BTMP_reg_2_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(24): Failed to find INSTANCE 'BTMP_reg_3_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(22): Failed to find INSTANCE 'BTMP_reg_4_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(20): Failed to find INSTANCE 'BTMP_reg_5_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(19): Failed to find INSTANCE 'BTMP_reg_6_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(18): Failed to find INSTANCE 'BTMP_reg_7_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(46): Failed to find INSTANCE 'U18'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(44): Failed to find INSTANCE 'U19'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(42): Failed to find INSTANCE 'U20'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(40): Failed to find INSTANCE 'U21'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(38): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(36): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(34): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(32): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(30): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(28): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(26): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(24): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(22): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(20): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(18): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(47): Failed to find INSTANCE 'buss_reg_0_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(50): Failed to find INSTANCE 'buss_reg_1_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(53): Failed to find INSTANCE 'buss_reg_2_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(56): Failed to find INSTANCE 'buss_reg_3_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(59): Failed to find INSTANCE 'buss_reg_4_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(62): Failed to find INSTANCE 'buss_reg_5_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(65): Failed to find INSTANCE 'buss_reg_6_'.
+# ** Error: (vsim-SDF-3250) grayencoder.sdf(68): Failed to find INSTANCE 'buss_reg_7_'.
+# Loading instances from t0encdec.sdf
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(29): Failed to find INSTANCE 'AOLD_reg_0_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(28): Failed to find INSTANCE 'AOLD_reg_1_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(26): Failed to find INSTANCE 'AOLD_reg_2_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(24): Failed to find INSTANCE 'AOLD_reg_3_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(22): Failed to find INSTANCE 'AOLD_reg_4_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(20): Failed to find INSTANCE 'AOLD_reg_5_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(18): Failed to find INSTANCE 'AOLD_reg_6_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(32): Failed to find INSTANCE 'AOLD_reg_7_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(60): Failed to find INSTANCE 'BSIG_reg_0_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(63): Failed to find INSTANCE 'BSIG_reg_1_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(66): Failed to find INSTANCE 'BSIG_reg_2_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(69): Failed to find INSTANCE 'BSIG_reg_3_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(72): Failed to find INSTANCE 'BSIG_reg_4_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(75): Failed to find INSTANCE 'BSIG_reg_5_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(78): Failed to find INSTANCE 'BSIG_reg_6_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(81): Failed to find INSTANCE 'BSIG_reg_7_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(108): Failed to find INSTANCE 'CDEC_reg_0_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(111): Failed to find INSTANCE 'CDEC_reg_1_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(114): Failed to find INSTANCE 'CDEC_reg_2_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(117): Failed to find INSTANCE 'CDEC_reg_3_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(120): Failed to find INSTANCE 'CDEC_reg_4_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(123): Failed to find INSTANCE 'CDEC_reg_5_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(126): Failed to find INSTANCE 'CDEC_reg_6_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(129): Failed to find INSTANCE 'CDEC_reg_7_'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(132): Failed to find INSTANCE 'INC_A_reg'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(83): Failed to find INSTANCE 'U22'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(80): Failed to find INSTANCE 'U23'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(77): Failed to find INSTANCE 'U24'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(74): Failed to find INSTANCE 'U25'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(71): Failed to find INSTANCE 'U26'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(68): Failed to find INSTANCE 'U27'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(65): Failed to find INSTANCE 'U28'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(62): Failed to find INSTANCE 'U29'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(59): Failed to find INSTANCE 'U30'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(57): Failed to find INSTANCE 'U31'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(53): Failed to find INSTANCE 'U32'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(51): Failed to find INSTANCE 'U33'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(49): Failed to find INSTANCE 'U34'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(47): Failed to find INSTANCE 'U35'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(45): Failed to find INSTANCE 'U36'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(41): Failed to find INSTANCE 'U37'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(39): Failed to find INSTANCE 'U38'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(37): Failed to find INSTANCE 'U39'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(35): Failed to find INSTANCE 'U40'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(33): Failed to find INSTANCE 'U41'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(30): Failed to find INSTANCE 'add_32_U1'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(27): Failed to find INSTANCE 'add_32_U1_1_1'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(25): Failed to find INSTANCE 'add_32_U1_1_2'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(23): Failed to find INSTANCE 'add_32_U1_1_3'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(21): Failed to find INSTANCE 'add_32_U1_1_4'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(19): Failed to find INSTANCE 'add_32_U1_1_5'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(18): Failed to find INSTANCE 'add_32_U1_1_6'.
+# ** Error: (vsim-SDF-3250) t0encdec.sdf(31): Failed to find INSTANCE 'add_32_U2'.
+# ** Error: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./fill_forward.scr PAUSED at line 5
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project p4

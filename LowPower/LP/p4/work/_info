@@ -1,0 +1,96 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp19.2/Desktop/pp
+T_opt
+Vf;;P`E_KmAjbGB9HA59e11
+Z1 04 9 4 work testbench fast 0
+Z2 =1-52540093200d-5d1f90b2-9d189-3fa1
+Z3 o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.5c -sdftyp /testbench/UBUSNORM=busnormal.sdf -sdftyp /testbench/UBUSINV=businvbeh.sdf -sdftyp /testbench/UBUSTRANSBASED=transbased.sdf -sdftyp /testbench/UBUSGRAY=grayencoder.sdf -sdftyp /testbench/UBUST0=t0encdec.sdf -suppress 1948 +acc
+Z4 n@_opt
+Z5 OL;O;6.5c;42
+vbusinvbeh
+Z6 II:zZ`5T@7>3>aA78<[JaJ3
+Z7 Vh2^GnA2?Oj=2JE?HHj1Jm1
+Z8 w1562349664
+Z9 8/home/lp19.2/Desktop/pp/fromsynopsys_BUSINV_.v
+Z10 F/home/lp19.2/Desktop/pp/fromsynopsys_BUSINV_.v
+L0 2
+Z11 OL;L;6.5c;42
+r1
+31
+Z12 !s102 -nocovercells
+Z13 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z14 !s100 EiIWz4J^o84`_P3z<QKIe1
+!s85 0
+vbusnormal
+Z15 IhL5YfC[iQ>OO5kMNV9>m^3
+Z16 VRa3OZ`PXSAi2P@[SVUThA0
+Z17 w1562349658
+Z18 8/home/lp19.2/Desktop/pp/fromsynopsys_BUSNORM_.v
+Z19 F/home/lp19.2/Desktop/pp/fromsynopsys_BUSNORM_.v
+L0 2
+R11
+r1
+31
+R12
+R13
+Z20 !s100 KIR^I9]cmJ3EB4Y=L=fCa1
+!s85 0
+vgrayencoder
+Z21 IgX@_R7X8mPJMI;SO??Pf:3
+Z22 VRQ4m1^D23ko_mP:cWNOc_0
+Z23 w1562349675
+Z24 8/home/lp19.2/Desktop/pp/fromsynopsys_BUSGRAY_.v
+Z25 F/home/lp19.2/Desktop/pp/fromsynopsys_BUSGRAY_.v
+L0 2
+R11
+r1
+31
+R12
+R13
+Z26 !s100 ddh0c_d^dPKEGDh;^1?cV0
+!s85 0
+vt0encdec
+Z27 IdOC:GN@ohfVf2kI[gzgij1
+Z28 Vlhm]SDld]4b0V;_n9n]zi3
+Z29 w1562349681
+Z30 8/home/lp19.2/Desktop/pp/fromsynopsys_T0_.v
+Z31 F/home/lp19.2/Desktop/pp/fromsynopsys_T0_.v
+L0 2
+R11
+r1
+31
+R12
+R13
+Z32 !s100 1UMiDo:6jN24ojO=<0ml03
+!s85 0
+vtestbench
+Z33 Ik0<z930:Z`mYFTazLVIZX1
+Z34 VnNUi1I]nGnNm]<MLYAjLG1
+Z35 w1562349596
+Z36 8/home/lp19.2/Desktop/pp/tb_encdec.v
+Z37 F/home/lp19.2/Desktop/pp/tb_encdec.v
+L0 4
+R11
+r1
+31
+R12
+R13
+Z38 !s100 F6>][HfB5dAF7m6>J^I;f0
+!s85 0
+vtransbased
+Z39 IAAB[gO1BZnA922keYhCbF1
+Z40 V:32;R[<QJK>H6`5KInGQ93
+Z41 w1562349670
+Z42 8/home/lp19.2/Desktop/pp/fromsynopsys_BUSTRAN_.v
+Z43 F/home/lp19.2/Desktop/pp/fromsynopsys_BUSTRAN_.v
+L0 2
+R11
+r1
+31
+R12
+R13
+Z44 !s100 7z566N0;V0E0LiC5K`iTz2
+!s85 0

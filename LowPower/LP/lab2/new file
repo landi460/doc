@@ -1,0 +1,14 @@
+ibrary IEEE;
+use IEEE.std_logic_1164.all; --  libreria IEEE con definizione tipi standard logic
+use IEEE.std_logic_signed.all;
+
+entity Sum is
+  port ( clk: in std_logic;
+         S0, S1, S2, S3: out std_logic);
+end entity;
+
+architecture FSM_lab2 of Sum is
+type TYPE_STATE is (sum1, sum2, sum3, sum4, sum5);
+signal current_state : TYPE_STATE;
+signal next_state : TYPE_STATE;
+          

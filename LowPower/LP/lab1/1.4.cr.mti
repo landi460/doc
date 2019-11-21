@@ -1,0 +1,119 @@
+/home/lp19.26/Desktop/lab4/tb_encdec.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/lab4/tb_encdec.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} /home/lp19.26/Desktop/lab4/busnormal.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab4/busnormal.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity busnormal
+-- Compiling architecture behavioral of busnormal
+
+} {} {}} /home/lp19.26/Desktop/lab2/synth/dpadder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/synth/dpadder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity datapath_adder
+-- Compiling architecture behavioral of datapath_adder
+-- Compiling configuration cfg_dp_adder
+-- Loading entity datapath_adder
+-- Loading architecture behavioral of datapath_adder
+
+} {} {}} /home/lp19.26/Desktop/lab3/ckgating.vhd {0 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab3/ckgating.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ckgating
+-- Compiling architecture test of ckgating
+-- Compiling configuration ckgtest
+-- Loading entity ckgating
+-- Loading architecture test of ckgating
+-- Loading entity fd
+** Error: (vcom-11) Could not find work.cfg_ld_behavioral.
+** Error: /home/lp19.26/Desktop/lab3/ckgating.vhd(67): (vcom-1195) Cannot find expanded name "work.cfg_ld_behavioral".
+** Error: /home/lp19.26/Desktop/lab3/ckgating.vhd(67): (vcom-1106) Name (expanded name) is not a configuration name.
+** Error: /home/lp19.26/Desktop/lab3/ckgating.vhd(67): Unknown expanded name.
+-- Loading configuration cfg_fd_pluto
+** Error: /home/lp19.26/Desktop/lab3/ckgating.vhd(75): VHDL Compiler exiting
+
+} {11.0 15.0 16.0 17.0} {}} /home/lp19.26/Desktop/lab2/tb_FSM_adder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/tb_FSM_adder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity tb_fsm_adder
+-- Compiling architecture test of tb_fsm_adder
+
+} {} {}} /home/lp19.26/Desktop/lab3/inccomp.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab3/inccomp.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity inccomp
+-- Compiling architecture behavioral of inccomp
+
+} {} {}} /home/lp19.26/Desktop/lab2/synth/fsmadder_struct.vhd {0 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/synth/fsmadder_struct.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity fsm_adder
+-- Compiling architecture behavioral of fsm_adder
+** Error: /home/lp19.26/Desktop/lab2/synth/fsmadder_struct.vhd(55): Cannot read output "sums".
+** Error: /home/lp19.26/Desktop/lab2/synth/fsmadder_struct.vhd(55): Cannot read output "sums".
+** Error: /home/lp19.26/Desktop/lab2/synth/fsmadder_struct.vhd(60): VHDL Compiler exiting
+
+} {9.0 12.0} {}} /home/lp19.26/Desktop/lab2/synth/fsm.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/synth/fsm.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity fsm
+-- Compiling architecture fsm_lab2 of fsm
+
+} {} {}} /home/lp19.26/Desktop/lab3/fd.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab3/fd.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fd
+-- Compiling architecture pippo of fd
+-- Compiling architecture pluto of fd
+-- Loading entity fd
+-- Compiling configuration cfg_fd_pippo
+-- Loading entity fd
+-- Loading architecture pippo of fd
+-- Compiling configuration cfg_fd_pluto
+-- Loading entity fd
+-- Loading architecture pluto of fd
+
+} {} {}} /home/lp19.26/Desktop/lab3/tb_inccomp.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/lab3/tb_inccomp.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module tbinccomp
+
+Top level modules:
+	tbinccomp
+
+} {} {}} /home/lp19.26/Desktop/lab3/ckgbug.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab3/ckgbug.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ckgbug
+-- Compiling architecture test of ckgbug
+-- Compiling configuration cfg_ckgbug_test
+-- Loading entity ckgbug
+-- Loading architecture test of ckgbug
+-- Loading entity fd
+-- Loading configuration cfg_fd_pluto
+
+} {} {}}

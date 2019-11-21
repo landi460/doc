@@ -1,0 +1,71 @@
+Information: Updating design information... (UID-85)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -net
+        -analysis_effort low
+        -sort_mode net_switching_power
+Design : FSM_adder
+Version: F-2011.09-SP3
+Date   : Mon May 27 17:59:36 2019
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+FSM_adder              5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+s2                            10.152    0.175    0.0371      0.2279  
+s0                             7.115    0.188    0.0376      0.1618  
+SUMS[9]                        4.418    0.099    0.0229      0.0612  
+SUMS[1]                        4.418    0.095    0.0226      0.0604  
+SUMS[12]                       4.418    0.102    0.0224      0.0599  
+SUMS[7]                        4.418    0.096    0.0218      0.0582  
+SUMS[6]                        4.418    0.091    0.0217      0.0581  
+SUMS[15]                       4.418    0.099    0.0216      0.0578  
+SUMS[10]                       4.418    0.095    0.0215      0.0576  
+SUMS[8]                        4.418    0.101    0.0214      0.0573  
+SUMS[2]                        4.418    0.103    0.0214      0.0571  
+s3                            10.166    0.049    0.0092      0.0563  
+SUMS[14]                       4.418    0.093    0.0210      0.0562  
+SUMS[0]                        4.418    0.094    0.0209      0.0559  
+SUMS[13]                       4.418    0.081    0.0208      0.0555  
+SUMS[11]                       4.418    0.088    0.0207      0.0552  
+SUMS[3]                        4.418    0.086    0.0206      0.0551  
+SUMS[4]                        4.418    0.088    0.0204      0.0545  
+SUMS[5]                        4.418    0.092    0.0203      0.0542  
+s1                            10.166    0.016    0.0026      0.0158  
+--------------------------------------------------------------------------------
+Total (20 nets)                                              1.3759 uW
+1

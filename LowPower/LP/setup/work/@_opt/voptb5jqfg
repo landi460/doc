@@ -1,0 +1,349 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp19.26/Desktop/setup
+T_opt
+Z1 VhiE<=4>6;Rj0MGVOAO`;F1
+Z2 04 9 0 work mux21test 1
+Z3 =1-52540093200d-5c90d9f1-90ab3-39e2
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+Ccfg_iv_behavioral
+DAx32 /home/lp19.26/Desktop/setup/work 2 iv 10 behavioral 22 0_[jYH]NfP;S85G:0NJSP3
+Z7 DPx32 /home/lp19.26/Desktop/setup/work 9 constants 0 22 oF:?ZoH63jc>YmA:J2GjU0
+Z8 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z9 DEx32 /home/lp19.26/Desktop/setup/work 2 iv 0 22 foZ2g]1?:5AZA9M<7;K?;2
+32
+Z10 Mx2 17 __model_tech/ieee 14 std_logic_1164
+Z11 Mx1 32 /home/lp19.26/Desktop/setup/work 9 constants
+Z12 abehavioral
+eiv
+Z13 w1552990654
+Z14 8iv.vhd
+Z15 Fiv.vhd
+l0
+L19
+Z16 VK:4RM=4N3nM^T?31Al^5D1
+Z17 OL;C;6.5c;42
+Z18 tExplicit 1
+Z19 !s100 Tgie3OMS2`RXjhlneN56n0
+Ccfg_mux21_behavioral_1
+DAx32 /home/lp19.26/Desktop/setup/work 5 mux21 12 behavioral_1 22 YeedfTi;[UnSn6@]bXXH]3
+R7
+R8
+Z20 DEx32 /home/lp19.26/Desktop/setup/work 5 mux21 0 22 QDTEVekcXUPI0JJ0[WI=[0
+32
+R10
+R11
+Z21 abehavioral_1
+Z22 emux21
+R13
+Z23 8mux21.vhd
+Z24 Fmux21.vhd
+l0
+L83
+Z25 V9@TQPX46kOVQT:dD:RmNi1
+R17
+R18
+Z26 !s100 DS^QJ>[LCj>:5Wa5RULjP3
+Ccfg_mux21_behavioral_2
+DAx32 /home/lp19.26/Desktop/setup/work 5 mux21 12 behavioral_2 22 8HY>FJ5c40Oo2`iBkJ5[]2
+R7
+R8
+R20
+32
+R10
+R11
+Z27 abehavioral_2
+R22
+R13
+R23
+R24
+l0
+L88
+Z28 V>NVDN40ZhZgOE9]HhloUG2
+R17
+R18
+Z29 !s100 3dI2[4S?F9^MIC3c3KIQ^0
+Ccfg_mux21_behavioral_3
+DAx32 /home/lp19.26/Desktop/setup/work 5 mux21 12 behavioral_3 22 9R8j^M7dGa:Rj^l3HQk2c3
+R7
+R8
+R20
+32
+R10
+R11
+Z30 abehavioral_3
+R22
+R13
+R23
+R24
+l0
+L93
+Z31 V2U9]fmSN2Q93N10iLdnh<3
+R17
+R18
+Z32 !s100 `PZXW<DR5h:Dg2^7MYn0h3
+Ccfg_mux21_structural
+Z33 DEx32 /home/lp19.26/Desktop/setup/work 3 nd2 0 22 njBnTlFB2E]PDNXglROKV1
+R9
+Z34 DCx32 /home/lp19.26/Desktop/setup/work 13 cfg_nd2_arch2 0 22 8K0blM57fDOg_9Wh2[;D[3
+Z35 DCx32 /home/lp19.26/Desktop/setup/work 17 cfg_iv_behavioral 0 22 K:4RM=4N3nM^T?31Al^5D1
+DAx32 /home/lp19.26/Desktop/setup/work 5 mux21 10 structural 22 LmCmamO]B<EHghj3WTm2g2
+R7
+R8
+R20
+32
+R10
+R11
+Z36 astructural
+R22
+R13
+R23
+R24
+l0
+L98
+Z37 VQj8[^Q4l;iOX17aoJL;dJ2
+R17
+R18
+Z38 !s100 V9cUaz5HM:UWiPiYLXchL0
+Ccfg_nd2_arch1
+Z39 aarch1
+end2
+Z40 DAx4 work 3 nd2 5 arch1 22 R;ncnDhc0IbEi64OR3c^=0
+Z41 DPx4 work 9 constants 0 22 oF:?ZoH63jc>YmA:J2GjU0
+Z42 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z43 DEx4 work 3 nd2 0 22 njBnTlFB2E]PDNXglROKV1
+R13
+Z44 8nd2.vhd
+Z45 Fnd2.vhd
+l0
+L37
+Z46 V3oE]imJ=TI?TJ?6JIH<c;3
+R17
+32
+Z47 Mx2 4 ieee 14 std_logic_1164
+Z48 Mx1 4 work 9 constants
+R18
+Z49 !s100 S:_74@8hWe:1ORIPBdNo=2
+Ccfg_nd2_arch2
+DAx32 /home/lp19.26/Desktop/setup/work 3 nd2 5 arch2 22 c9?:UII2oEC3Z`M]o>_aW2
+R7
+R8
+R33
+32
+R10
+R11
+Z50 aarch2
+end2
+R13
+R44
+R45
+l0
+L42
+Z51 V8K0blM57fDOg_9Wh2[;D[3
+R17
+R18
+Z52 !s100 2Z0<fc3lA8`GT64G>z91=2
+Pconstants
+32
+R13
+Z53 8constants.vhd
+Z54 Fconstants.vhd
+l0
+L1
+Z55 VoF:?ZoH63jc>YmA:J2GjU0
+R17
+R18
+Z56 !s100 Z4HfM^me@zm=]Q8<W3Whf0
+Eiv
+R13
+R7
+R8
+32
+R14
+R15
+l0
+L5
+Z57 VfoZ2g]1?:5AZA9M<7;K?;2
+R17
+R18
+Z58 !s100 Q^WgS0[@V:a:mQLB>>P<m1
+Abehavioral
+R7
+R8
+R9
+32
+R10
+R11
+l13
+L11
+Z59 V0_[jYH]NfP;S85G:0NJSP3
+R17
+R18
+Z60 !s100 `6I4KiBAL[O2Sf4VFmF1T2
+Emux21
+R13
+R7
+R8
+32
+R23
+R24
+l0
+L5
+Z61 VQDTEVekcXUPI0JJ0[WI=[0
+R17
+R18
+Z62 !s100 lNLNgHT_jK<KYmie9EHbO3
+Astructural
+R33
+R9
+R34
+R35
+R7
+R8
+R20
+32
+R10
+R11
+l65
+L46
+Z63 VLmCmamO]B<EHghj3WTm2g2
+R17
+R18
+Z64 !s100 ibhC=`4dXRb7<RIEbW?HN1
+Abehavioral_3
+R7
+R8
+R20
+32
+R10
+R11
+l31
+L29
+Z65 V9R8j^M7dGa:Rj^l3HQk2c3
+R17
+R18
+Z66 !s100 Q?S0LkY6C7@QaQiaFZLAl2
+Abehavioral_2
+R7
+R8
+R20
+32
+R10
+R11
+l23
+L21
+Z67 V8HY>FJ5c40Oo2`iBkJ5[]2
+R17
+R18
+Z68 !s100 hh7BWjX1S;MNhB0Bnb3l[1
+Abehavioral_1
+R7
+R8
+R20
+32
+R10
+R11
+l15
+L13
+Z69 VYeedfTi;[UnSn6@]bXXH]3
+R17
+R18
+Z70 !s100 :Kj4gRDJIn^<MbZ501`;J2
+Cmux21test
+R20
+Z71 DCx32 /home/lp19.26/Desktop/setup/work 20 cfg_mux21_structural 0 22 Qj8[^Q4l;iOX17aoJL;dJ2
+Z72 DCx32 /home/lp19.26/Desktop/setup/work 22 cfg_mux21_behavioral_3 0 22 2U9]fmSN2Q93N10iLdnh<3
+Z73 DCx32 /home/lp19.26/Desktop/setup/work 22 cfg_mux21_behavioral_2 0 22 >NVDN40ZhZgOE9]HhloUG2
+Z74 DCx32 /home/lp19.26/Desktop/setup/work 22 cfg_mux21_behavioral_1 0 22 9@TQPX46kOVQT:dD:RmNi1
+DAx32 /home/lp19.26/Desktop/setup/work 7 tbmux21 4 test 22 ea:IiRa7hRz7bnP;J7a:W1
+R7
+R8
+Z75 DEx32 /home/lp19.26/Desktop/setup/work 7 tbmux21 0 22 5TPK6K:j>H:e:heEMDaLj3
+32
+R10
+R11
+atest
+Z76 etbmux21
+R13
+Z77 8tb_mux21.vhd
+Z78 Ftb_mux21.vhd
+l0
+L70
+Z79 VizD1A@4EXVB<U]]0^g@IJ3
+R17
+R18
+Z80 !s100 <4TD62lL^fGGJZMOjB2]V1
+End2
+R13
+R7
+R8
+32
+R44
+R45
+l0
+L5
+Z81 VnjBnTlFB2E]PDNXglROKV1
+R17
+R18
+Z82 !s100 0b2m=EzJ4CFNo;P7DCce@2
+Aarch2
+R7
+R8
+R33
+32
+R10
+R11
+l21
+L19
+Z83 Vc9?:UII2oEC3Z`M]o>_aW2
+R17
+R18
+Z84 !s100 01hVU:3ngei6LQL5mlD:W3
+Aarch1
+R41
+R42
+R43
+l14
+L12
+Z85 VR;ncnDhc0IbEi64OR3c^=0
+R17
+32
+R47
+R48
+R18
+Z86 !s100 R6e:B22nh<VT3o3ifiT6G1
+Etbmux21
+R13
+R7
+R8
+32
+R77
+R78
+l0
+L6
+Z87 V5TPK6K:j>H:e:heEMDaLj3
+R17
+R18
+Z88 !s100 AkF7_9;SX7KM<N3;Pm1DR2
+Atest
+R20
+R71
+R72
+R73
+R74
+R7
+R8
+R75
+32
+R10
+R11
+l36
+L9
+Z89 Vea:IiRa7hRz7bnP;J7a:W1
+R17
+R18
+Z90 !s100 =0R[lk7@R]1GfZM[`oNGf0

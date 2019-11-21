@@ -1,0 +1,99 @@
+m255
+K3
+13
+cModel Technology
+d/home/lp19.26/Desktop/ese6/2/v2/src
+Ecounter
+Z0 w1562694957
+Z1 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 d/home/lp19.26/Desktop/ese6/3/vREF
+Z4 8/home/lp19.26/Desktop/ese6/3/vREF/counter.vhd
+Z5 F/home/lp19.26/Desktop/ese6/3/vREF/counter.vhd
+l0
+L5
+VU6I3A1jzAZT0nAM6NU?E11
+!s100 3D=G6^Z?BnOf=[S[^8_Jc0
+Z6 OL;C;6.5c;42
+32
+Z7 o-work work -2002 -explicit
+Z8 tExplicit 1
+Abehavioral
+R1
+R2
+Z9 DEx4 work 7 counter 0 22 U6I3A1jzAZT0nAM6NU?E11
+l20
+L16
+Z10 Vl`>2N9W@C9d8aND]IPO510
+Z11 !s100 6I4d^mc5O@@LFEPUlmX343
+R6
+32
+Z12 Mx2 4 ieee 14 std_logic_1164
+Z13 Mx1 4 ieee 11 numeric_std
+R7
+R8
+Ecounter_tb
+Z14 w1562695323
+Z15 DPx4 ieee 9 math_real 0 22 zjAF7SKfg_RPI0GT^n1N`1
+R1
+R2
+R3
+Z16 8/home/lp19.26/Desktop/ese6/3/vREF/4P_tb.vhd
+Z17 F/home/lp19.26/Desktop/ese6/3/vREF/4P_tb.vhd
+l0
+L7
+V[l7VQ5GEnBZNekOeI5Eh02
+R6
+32
+R7
+R8
+!s100 6PUA7l^:[7e?fn_3hLE6h2
+Aarch
+R15
+R1
+R2
+DEx4 work 10 counter_tb 0 22 [l7VQ5GEnBZNekOeI5Eh02
+l30
+L10
+VYVfK_AXSa:J972=^YbT>80
+R6
+32
+Z18 Mx3 4 ieee 14 std_logic_1164
+Z19 Mx2 4 ieee 11 numeric_std
+Z20 Mx1 4 ieee 9 math_real
+R7
+R8
+!s100 0C14EMEVndVW7j>K>gB8]1
+Einccomp_tb
+w1562694047
+R15
+R1
+R2
+R3
+R16
+R17
+l0
+L7
+V8DJE5oYG86IJNK5IJFOjM1
+R6
+32
+R7
+R8
+!s100 H:`P[4Q[U0R14N0AHcNGS3
+Aarch
+R15
+R1
+R2
+DEx4 work 10 inccomp_tb 0 22 8DJE5oYG86IJNK5IJFOjM1
+l41
+L10
+V^HHbOh;0j2eUe<?mW0=7l2
+R6
+32
+R18
+R19
+R20
+R7
+R8
+w1562693319
+!s100 H?mh=FnG6ddCK7Wg4>z8e1

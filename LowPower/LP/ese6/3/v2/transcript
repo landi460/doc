@@ -1,0 +1,224 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project vref
+# Compile of counter.vhd was successful.
+# 1 compiles, 1 failed with no errors. 
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project vs
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -t ps -novopt work.counter_tb
+# vsim -t ps -novopt work.counter_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+add wave *
+run 100 ns
+restart
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+restart
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100  ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
++
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+# invalid command name "+"
+
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+restart√
+# invalid command name "restart√"
+restart
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns
+# Compile of 4P_tb_3_v2.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+# Refreshing /home/lp19.26/Desktop/ese6/3/v2/work.counter(behavioral)
+# Loading work.counter(behavioral)
+run 100 ns

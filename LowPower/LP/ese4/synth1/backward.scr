@@ -1,0 +1,32 @@
+# This script compiles the designs
+# one by one... 
+#
+
+# Creates the clock
+create_clock -name "clock" -period $period {ck}
+
+# Reads data from backward.saif file...
+# THE CLOCK IN THE TESTBENCH MUST BE THE SAME AS THE CLOCK 'CK' 
+# DECLARED UNDER DESIGN VISION!!
+read_saif -input ../backward.saif -instance testbench/$BUSTYPE -scale 1 -unit_base ns
+
+variable loadset 1
+source save_power_report.scr
+
+set_load $load1 "B"
+compile -exact_map 
+set loadset $load1
+source save_power_report.scr
+
+set_load $load2 "B"
+compile -exact_map
+set loadset $load2
+source save_power_report.scr
+
+set_load $load3 "B"
+compile -exact_map
+set loadset $load3
+source save_power_report.scr
+
+
+

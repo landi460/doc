@@ -1,0 +1,125 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project v1
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project v2
+# Compile of 4P_tb_2.vhd was successful.
+# Compile of inccomp.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -t ps -novopt work.inccomp_tb
+# vsim -t ps -novopt work.inccomp_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Refreshing /home/lp19.26/Desktop/ese6/2/v2/src/work.inccomp_tb(arch)
+# Loading work.inccomp_tb(arch)
+# Loading work.constants
+# Refreshing /home/lp19.26/Desktop/ese6/2/v2/src/work.inccomp(rtl)
+# Loading work.inccomp(rtl)
+# Loading work.mux21_generic(structural)
+# Loading work.notgate(behavioral)
+# Loading work.andgate2(behavioral)
+# Loading work.orgate2(behavioral)
+# Loading work.p4_adder_1(structural)
+# Loading work.carry_generator(structural)
+# Loading work.pg_network(structural)
+# Loading work.pg_network_block(behavioral)
+# Loading work.carry_logic_network(structural)
+# Loading work.g_block(behavioral)
+# Loading work.pg_block(behavioral)
+# Loading work.sum_generator(structural)
+# Loading work.carry_select_block(structural)
+# Loading work.rca_generic(structural)
+# Loading work.fa(behavioral)
+# Loading work.p4_adder_2(structural)
+# Loading work.registern(arch)
+# Loading work.comparator(arch)
+add wave *
+run 100 us
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 7  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 7  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 8  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 8  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 9  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 10  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 6  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 6  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 8  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 5 ns  Iteration: 9  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 9  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 9  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 2  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 6  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 6  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_2
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 7  Instance: /inccomp_tb/dut/p4a_1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 8  Instance: /inccomp_tb/dut/comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 2505 ns  Iteration: 9  Instance: /inccomp_tb/dut/comp

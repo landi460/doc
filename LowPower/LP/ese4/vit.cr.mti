@@ -1,0 +1,88 @@
+/home/lp19.26/Desktop/ese4/fromsynopsys_BUSINV_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/ese4/fromsynopsys_BUSINV_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module businvbeh
+
+Top level modules:
+	businvbeh
+
+} {} {}} /home/lp19.26/Desktop/ese4/fromsynopsys_BUSTRAN_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/ese4/fromsynopsys_BUSTRAN_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module transbased
+
+Top level modules:
+	transbased
+
+} {} {}} /home/lp19.26/Desktop/ese4/businvbeh.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ese4/businvbeh.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity businvbeh
+-- Compiling architecture behavioral of businvbeh
+
+} {} {}} /home/lp19.26/Desktop/ese4/fromsynopsys_T0_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/ese4/fromsynopsys_T0_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module t0encdec
+
+Top level modules:
+	t0encdec
+
+} {} {}} /home/lp19.26/Desktop/ese4/t0encdec.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ese4/t0encdec.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity t0encdec
+-- Compiling architecture behavioral of t0encdec
+
+} {} {}} /home/lp19.26/Desktop/ese4/busnormal.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ese4/busnormal.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity busnormal
+-- Compiling architecture behavioral of busnormal
+
+} {} {}} /home/lp19.26/Desktop/ese4/fromsynopsys_BUSGRAY_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/ese4/fromsynopsys_BUSGRAY_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module grayencoder
+
+Top level modules:
+	grayencoder
+
+} {} {}} /home/lp19.26/Desktop/ese4/grayencoder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ese4/grayencoder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity grayencoder
+-- Compiling architecture behavioral of grayencoder
+
+} {} {}} /home/lp19.26/Desktop/ese4/tb_encdec.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/ese4/tb_encdec.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} /home/lp19.26/Desktop/ese4/transbased.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ese4/transbased.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity transbased
+-- Compiling architecture behavioral of transbased
+
+} {} {}} /home/lp19.26/Desktop/ese4/fromsynopsys_BUSNORM_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/ese4/fromsynopsys_BUSNORM_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module busnormal
+
+Top level modules:
+	busnormal
+
+} {} {}}

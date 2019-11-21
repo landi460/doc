@@ -1,0 +1,33 @@
+/home/lp19.26/Desktop/lab1/rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/rca.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture structural of rca
+-- Compiling configuration cfg_rca_structural
+-- Loading entity rca
+-- Loading architecture structural of rca
+-- Loading entity fa
+-- Loading configuration cfg_fa_behavioral
+
+} {} {}} /home/lp19.26/Desktop/lab1/tb_rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/tb_rca.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity tbrca
+-- Compiling architecture test of tbrca
+
+} {} {}} /home/lp19.26/Desktop/lab1/rca_syn.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab1/rca_syn.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture structural of rca
+-- Compiling configuration cfg_rca_structural
+-- Loading entity rca
+-- Loading architecture structural of rca
+-- Loading entity fa
+-- Loading configuration cfg_fa_behavioral
+
+} {} {}}

@@ -1,0 +1,40 @@
+/home/lp19.26/Desktop/lab2/FSM_adder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/FSM_adder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity fsm_adder
+-- Compiling architecture behavioral of fsm_adder
+
+} {} {}} /home/lp19.26/Desktop/lab2/tb_FSM_adder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/tb_FSM_adder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity tb_fsm_adder
+-- Compiling architecture test of tb_fsm_adder
+
+} {} {}} /home/lp19.26/Desktop/lab2/FSM_lab2.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/FSM_lab2.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity fsm
+-- Compiling architecture fsm_lab2 of fsm
+
+} {} {}} /home/lp19.26/Desktop/lab2/dpadder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab2/dpadder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity datapath_adder
+-- Compiling architecture behavioral of datapath_adder
+-- Compiling configuration cfg_dp_adder
+-- Loading entity datapath_adder
+-- Loading architecture behavioral of datapath_adder
+
+} {} {}}

@@ -1,0 +1,88 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project v2
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project vref
+# Compile of 4P_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of 4P_tb.vhd failed with 1 errors.
+# Compile of counter.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of 4P_tb.vhd failed with 1 errors.
+# Compile of counter.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of 4P_tb.vhd failed with 1 errors.
+# Compile of counter.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of 4P_tb.vhd failed with 1 errors.
+# Compile of counter.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of 4P_tb.vhd failed with 1 errors.
+# Compile of counter.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of 4P_tb.vhd failed with 1 errors.
+# Compile of counter.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of 4P_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of 4P_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -t ps -novopt work.counter work.counter_tb
+# vsim -t ps -novopt work.counter work.counter_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter(behavioral)
+# Loading work.counter(behavioral)
+# Loading ieee.math_real(body)
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+add wave *
+run 100 us
+restart
+run 100 us
+# Drop insertion failed: sim:/counter_tb/dut/state/*
+# (vish-4014) No objects found matching '/counter_tb/dut/state/*'.
+restart
+run 100 us
+# Compile of 4P_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter(behavioral)
+# Loading work.counter(behavioral)
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+run 100 us
+# Compile of 4P_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter(behavioral)
+# Loading work.counter(behavioral)
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+run 100 us
+# Compile of 4P_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter(behavioral)
+# Loading work.counter(behavioral)
+# Refreshing /home/lp19.26/Desktop/ese6/3/vREF/work.counter_tb(arch)
+# Loading work.counter_tb(arch)
+run 100 us
+# Compile of 4P_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors. 

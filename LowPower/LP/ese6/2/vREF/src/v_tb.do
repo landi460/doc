@@ -1,0 +1,14 @@
+vcom -93 -work ./work ./src/inccomp.vhd
+
+vcom -93 -work ./work ./src/4P_tb.vhd
+
+vsim -t ns -novopt work.src/4P_tb
+
+set NumericStdNoWarnings 1 
+run 0 ps
+set NumericStdNoWarnings 0 
+
+add wave * -radix binary
+
+
+run 60 ns

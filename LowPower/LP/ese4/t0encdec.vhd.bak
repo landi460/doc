@@ -1,0 +1,79 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+use work.all;
+
+entity t0encdec is
+port (	ck : in std_logic;
+	rst : in std_logic;
+	A : in std_logic_vector(7 downto 0);
+	B : out std_logic_vector(8 downto 0);
+	C : out std_logic_vector(7 downto 0)
+        );
+end t0encdec;
+
+architecture behavioral of t0encdec is
+
+signal AOLD: std_logic_vector(7 downto 0) := "00000000" ;
+signal temp: std_logic_vector(8 downto 0) := "000000000";
+signal Aenc: std_logic_vector(7 downto 0) := "00000000";
+signal Ac  : std_logic                    := "0";
+begin
+  
+ p_ff_in: process(ck,rst)
+ begin
+  if rst = '1' and rising_edge(ck) then 
+        AOLD <= "00000000";
+        temp <= "000000000";
+        Ac <= '1';
+  elsif (rising_edge(ck)) and  Ac = '1' then  
+        AOLD <= A;
+        Aenc <= A;
+        Ac <= '0';
+  elsif (rising_edge(ck)) and  Ac = '0' then
+        AOLD <= A;
+        
+  elsif rising_edge(ck) and (A /= AOLD + "00000001") then
+        Ac <= '1';
+  else
+        Ac <= '0';
+  
+  end if;    
+ end process;
+
+ 
+ pt0_cod: process(ck, rst)
+ begin 
+  if rst = '1'and rising_edge(ck) then 
+    temp <= "000000000"; 
+  elsif (rising_edge(ck)) then
+    if (A = AOLD + "00000001")  then
+      temp(7 downto 0) <= AOLD;
+      temp(8) <= '1';	    
+    else       
+     temp(7 downto 0) <= A ;
+     temp(8) <= '0';
+    end if;
+  end if;
+  B <= temp;
+ end process;
+
+
+ 
+ pt0_dec: process(ck,rst)
+ begin
+   if rst='1'and rising_edge(ck) then
+     C <= "00000000";
+   elsif ck'event and ck='1' then
+     if temp(8) = '1' then 
+       C <= AOLD;
+     else
+       C <= temp(7 downto 0); 
+     end if;
+    end if;
+ end process;
+
+ 
+	end behavioral;
+	
+	

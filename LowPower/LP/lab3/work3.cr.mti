@@ -1,0 +1,23 @@
+/home/lp19.26/Desktop/lab3/fd.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/lab3/fd.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fd
+-- Compiling architecture pippo of fd
+-- Compiling architecture pluto of fd
+-- Loading entity fd
+-- Compiling configuration cfg_fd_pippo
+-- Loading entity fd
+-- Loading architecture pippo of fd
+-- Compiling configuration cfg_fd_pluto
+-- Loading entity fd
+-- Loading architecture pluto of fd
+
+} {} {}} /home/lp19.26/Desktop/lab3/tb_inccomp.v {1 {vlog -work work -vopt -nocovercells /home/lp19.26/Desktop/lab3/tb_inccomp.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module inccomp2
+
+Top level modules:
+	inccomp2
+
+} {} {}}

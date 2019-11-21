@@ -1,0 +1,164 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project r4433
+project open /home/lp19.27/Desktop/lab_3/r4433
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project hhhhhh
+# Compile of inccomp_netlist.v was successful.
+# Compile of tb_inccomp.v was successful.
+# 2 compiles, 0 failed with no errors. 
+do script-forward.do.
+# Cannot open macro file: script-forward.do.
+do forward.do.
+# Cannot open macro file: forward.do.
+do -forward.do.
+# Cannot open macro file: -forward.do.
+do -forward.do
+# Cannot open macro file: -forward.do
+do -forward.
+# Cannot open macro file: -forward.
+do script-forward.
+# Cannot open macro file: script-forward.
+# vsim -L /software/dk/nangate45/verilog/msim6.5c -voptargs=+acc -sdftyp /tbinccomp/DUT=../inccomp.sdf -t ps work.tbinccomp 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tbinccomp(fast)
+# Loading work.inccomp(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'inccomp' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT
+# Loading /software/dk/nangate45/verilog/msim6.5c.DFFR_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'DFFR_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/C_reg_7_
+# Loading /software/dk/nangate45/verilog/msim6.5c.INV_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'INV_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/U55
+# Loading /software/dk/nangate45/verilog/msim6.5c.MUX2_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'MUX2_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/U56
+# Loading /software/dk/nangate45/verilog/msim6.5c.AOI21_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'AOI21_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/U64
+# Loading /software/dk/nangate45/verilog/msim6.5c.OAI221_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'OAI221_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/U66
+# Loading /software/dk/nangate45/verilog/msim6.5c.OAI21_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'OAI21_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/U67
+# Loading /software/dk/nangate45/verilog/msim6.5c.NOR3_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'NOR3_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/U75
+# Loading /software/dk/nangate45/verilog/msim6.5c.XOR2_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'XOR2_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/r68_U2
+# Loading /software/dk/nangate45/verilog/msim6.5c.HA_X1(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'HA_X1' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tbinccomp/DUT/r68_U1_1_1
+# Loading instances from ../inccomp.sdf
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(18): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_7_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(18): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(19): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_6_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(19): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(20): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_5_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(20): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_4_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(21): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(22): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_3_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(22): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(23): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_2_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(23): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_1_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(24): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(25): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/C_reg_0_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(25): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(27): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_0_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(27): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_1_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(29): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(31): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_2_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(31): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(33): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_3_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(33): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_4_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(35): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(37): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_5_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(37): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(39): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_6_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(39): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(41): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/syncha_reg_7_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(41): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(43): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_0_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(43): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(45): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_1_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(45): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(47): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_2_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(47): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(49): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_3_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(49): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_4_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(51): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(53): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_5_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(53): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(55): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_6_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(55): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(57): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /tbinccomp/DUT/synchb_reg_7_
+# ** Warning: (vsim-3722) /home/lp19.27/Desktop/lab_3/saiftest/inccomp_netlist.v(57): [TFMPC] - Missing connection for port 'QN'.
+# Loading timing data from ../inccomp.sdf
+# ** Warning: (vsim-3448) ../inccomp.sdf(1151): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1177): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1203): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1229): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1255): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1281): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1307): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1333): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1359): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1385): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1411): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1437): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1463): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1489): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1515): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1541): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1567): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1593): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1619): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1645): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1671): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1697): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1723): Setting negative specify check constraint (-28 ps) to zero.
+# ** Warning: (vsim-3448) ../inccomp.sdf(1749): Setting negative specify check constraint (-28 ps) to zero.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /tbinccomp  File: /home/lp19.27/Desktop/lab_3/saiftest/tb_inccomp.v
+vcd2saif -64 -input ../inccomp.vcd -output ../backward.saif
+# invalid command name "vcd2saif"

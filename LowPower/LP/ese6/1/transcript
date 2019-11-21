@@ -1,0 +1,99 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project work
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project work
+# Compile of 4P_tb.vhd failed with 1 errors.
+# Compile of inccomp.vhd failed with 1 errors.
+# Compile of carry_generator.vhd failed with 1 errors.
+# Compile of carry_logic_network.vhd failed with 1 errors.
+# Compile of carry_select_block.vhd failed with 1 errors.
+# Compile of g_block.vhd was successful.
+# Compile of p4_adder.vhd failed with 1 errors.
+# Compile of p4_adder_1.vhd failed with 1 errors.
+# Compile of pg_block.vhd was successful.
+# Compile of pg_network.vhd failed with 1 errors.
+# Compile of pg_network_block.vhd was successful.
+# Compile of sum_generator.vhd failed with 1 errors.
+# Compile of carry_generator.vhd failed with 1 errors.
+# Compile of carry_logic_network.vhd failed with 1 errors.
+# Compile of carry_select_block.vhd failed with 1 errors.
+# Compile of g_block.vhd was successful.
+# Compile of p4_adder.vhd failed with 1 errors.
+# Compile of p4_adder_2.vhd failed with 1 errors.
+# Compile of pg_block.vhd was successful.
+# Compile of pg_network.vhd failed with 1 errors.
+# Compile of pg_network_block.vhd was successful.
+# Compile of sum_generator.vhd failed with 1 errors.
+# 22 compiles, 16 failed with 16 errors. 
+# Compile of g_block.vhd was successful.
+# Compile of pg_block.vhd was successful.
+# Compile of pg_network_block.vhd was successful.
+# Compile of g_block.vhd was successful.
+# Compile of pg_block.vhd was successful.
+# Compile of pg_network_block.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of constants.vhd was successful.
+# Compile of fa.vhd was successful.
+# Compile of mux21_generic.vhd was successful.
+# Compile of notgate.vhd was successful.
+# Compile of orgate2.vhd was successful.
+# Compile of rca_gen.vhd was successful.
+# Compile of RegisterN.vhd was successful.
+# Compile of inccomp.vhd was successful.
+# Compile of carry_generator.vhd was successful.
+# Compile of carry_logic_network.vhd was successful.
+# Compile of carry_select_block.vhd was successful.
+# Compile of p4_adder.vhd was successful.
+# Compile of p4_adder_1.vhd was successful.
+# Compile of pg_network.vhd was successful.
+# Compile of sum_generator.vhd was successful.
+# Compile of carry_generator.vhd was successful.
+# Compile of carry_logic_network.vhd was successful.
+# Compile of carry_select_block.vhd was successful.
+# Compile of p4_adder.vhd was successful.
+# Compile of p4_adder_2.vhd was successful.
+# Compile of pg_network.vhd was successful.
+# Compile of sum_generator.vhd was successful.
+# Compile of andgate2.vhd was successful.
+# Compile of 4P_tb.vhd failed.
+# Compile of g_block.vhd was successful.
+# Compile of pg_block.vhd was successful.
+# Compile of pg_network_block.vhd was successful.
+# Compile of g_block.vhd was successful.
+# Compile of pg_block.vhd was successful.
+# Compile of pg_network_block.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of constants.vhd was successful.
+# Compile of fa.vhd was successful.
+# Compile of mux21_generic.vhd was successful.
+# Compile of notgate.vhd was successful.
+# Compile of orgate2.vhd was successful.
+# Compile of rca_gen.vhd was successful.
+# Compile of RegisterN.vhd was successful.
+# Compile of inccomp.vhd was successful.
+# Compile of carry_generator.vhd was successful.
+# Compile of carry_logic_network.vhd was successful.
+# Compile of carry_select_block.vhd was successful.
+# Compile of p4_adder.vhd was successful.
+# Compile of p4_adder_1.vhd was successful.
+# Compile of pg_network.vhd was successful.
+# Compile of sum_generator.vhd was successful.
+# Compile of carry_generator.vhd was successful.
+# Compile of carry_logic_network.vhd was successful.
+# Compile of carry_select_block.vhd was successful.
+# Compile of p4_adder.vhd was successful.
+# Compile of p4_adder_2.vhd was successful.
+# Compile of pg_network.vhd was successful.
+# Compile of sum_generator.vhd was successful.
+# Compile of andgate2.vhd was successful.
+# Compile of 4P_tb.vhd failed with 1 errors.
+# 31 compiles, 1 failed with 1 error. 

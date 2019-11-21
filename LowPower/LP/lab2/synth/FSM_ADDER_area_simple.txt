@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : FSM_adder
+Version: F-2011.09-SP3
+Date   : Fri May 24 19:57:48 2019
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:                          114
+Number of nets:                           118
+Number of cells:                            2
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       2
+
+Combinational area:        198.170003
+Noncombinational area:     101.080003
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           299.250006
+Total area:                 undefined
+1

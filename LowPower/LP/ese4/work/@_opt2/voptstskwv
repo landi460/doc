@@ -1,0 +1,162 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp19.26/Desktop/ese4
+T_opt
+Z1 VP_JFY@KkPZkVeK1G5g1fP2
+Z2 04 8 10 work t0encdec behavioral 1
+Z3 04 9 4 work testbench fast 0
+Z4 =5-52540093200d-5d222f7e-bf557-2b91
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 n@_opt
+Z7 OL;O;6.5c;42
+T_opt1
+Z8 VP_n<P7;fDg@njM?63^;NG0
+R3
+Z9 =1-52540093200d-5d22312a-a0ab8-644b
+R5
+Z10 n@_opt1
+R7
+T_opt2
+Z11 V2<j7c49b0NZf;kOo>CBCf1
+R3
+Z12 =1-52540093200d-5d23785a-26e8f-5102
+Z13 o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.5c -sdftyp /testbench/UBUSNORM=busnormal.sdf -sdftyp /testbench/UBUSINV=businvbeh.sdf -sdftyp /testbench/UBUSTRAN=transbased.sdf -sdftyp /testbench/UBUSGRAY=grayencoder.sdf -sdftyp /testbench/UBUST0=t0encdec.sdf -suppress 1948 +acc
+Z14 n@_opt2
+R7
+vbusinvbeh
+Z15 II:zZ`5T@7>3>aA78<[JaJ3
+Z16 Vh2^GnA2?Oj=2JE?HHj1Jm1
+Z17 w1562605492
+Z18 8/home/lp19.26/Desktop/ese4/fromsynopsys_BUSINV_.v
+Z19 F/home/lp19.26/Desktop/ese4/fromsynopsys_BUSINV_.v
+L0 2
+Z20 OL;L;6.5c;42
+r1
+31
+Z21 !s102 -nocovercells
+Z22 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z23 !s100 EiIWz4J^o84`_P3z<QKIe1
+!s85 0
+vbusnormal
+Z24 IhL5YfC[iQ>OO5kMNV9>m^3
+Z25 VRa3OZ`PXSAi2P@[SVUThA0
+Z26 w1562605485
+Z27 8/home/lp19.26/Desktop/ese4/fromsynopsys_BUSNORM_.v
+Z28 F/home/lp19.26/Desktop/ese4/fromsynopsys_BUSNORM_.v
+L0 2
+R20
+r1
+31
+R21
+R22
+Z29 !s100 KIR^I9]cmJ3EB4Y=L=fCa1
+!s85 0
+Egrayencoder
+Z30 w1557217071
+Z31 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z32 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z33 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z34 8/home/lp19.26/Desktop/ese4/grayencoder.vhd
+Z35 F/home/lp19.26/Desktop/ese4/grayencoder.vhd
+l0
+L6
+Z36 VfTHYCDOTBeML`01EbjD@R2
+Z37 OL;C;6.5c;42
+Z38 o-work work -2002 -explicit
+Z39 tExplicit 1
+Z40 !s100 5LYkH?@lZ1;hSW[[H?QSh3
+Abehavioral
+R31
+R32
+R33
+DEx31 /home/lp19.26/Desktop/ese4/work 11 grayencoder 0 22 fTHYCDOTBeML`01EbjD@R2
+32
+Z41 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z42 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Z43 Mx1 17 __model_tech/ieee 15 std_logic_arith
+l17
+L14
+Z44 V^hM4aR@glPKgV@Gd<mhXn2
+R37
+R38
+R39
+Z45 !s100 ZB:C80^Ka=CP?U@0Z?k_03
+Et0encdec
+Z46 w1562536404
+R31
+R32
+R33
+32
+Z47 8/home/lp19.26/Desktop/ese4/t0encdec.vhd
+Z48 F/home/lp19.26/Desktop/ese4/t0encdec.vhd
+l0
+L6
+Z49 VJHW^Jm@<>L[WC6]Um9USH0
+R37
+R38
+R39
+Z50 !s100 ;QSUWBoRDhUi8<0TAED560
+Abehavioral
+R31
+R32
+R33
+DEx31 /home/lp19.26/Desktop/ese4/work 8 t0encdec 0 22 JHW^Jm@<>L[WC6]Um9USH0
+32
+R41
+R42
+R43
+l24
+L15
+Z51 V4bbXiNBMKe=`Yj>P<S<C?2
+R37
+R38
+R39
+Z52 !s100 Q2AF[e4iRDO5HB>J_nU8X3
+vtestbench
+Z53 IBYAd15Gc9Q9hQ6M@ZH<443
+Z54 VnNUi1I]nGnNm]<MLYAjLG1
+Z55 w1562522378
+Z56 8/home/lp19.26/Desktop/ese4/tb_encdec.v
+Z57 F/home/lp19.26/Desktop/ese4/tb_encdec.v
+L0 4
+R20
+r1
+31
+R21
+R22
+Z58 !s100 ]f5YaePF@o@@2Z1jFK5U^2
+!s85 0
+Etransbased
+R30
+R31
+R32
+R33
+32
+Z59 8/home/lp19.26/Desktop/ese4/transbased.vhd
+Z60 F/home/lp19.26/Desktop/ese4/transbased.vhd
+l0
+L6
+Z61 VUmbGZ;TcH2SA2N`SMKVbE1
+R37
+R38
+R39
+Z62 !s100 QZO=>cT0YglfclX7iYW^n0
+Abehavioral
+R31
+R32
+R33
+DEx31 /home/lp19.26/Desktop/ese4/work 10 transbased 0 22 UmbGZ;TcH2SA2N`SMKVbE1
+32
+R41
+R42
+R43
+l17
+L14
+Z63 VXWDIGK?9T3c@m9X`JTZ4W3
+R37
+R38
+R39
+Z64 !s100 WmnE=z433CfanSTk>hLf:3

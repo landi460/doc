@@ -1,0 +1,43 @@
+START report: Tue May 21 11:46:20 2019 
+Warning: (eldo - 1071)  In file "/home/mg.lowpower/lowpower/ese5/lib/mos_bsim3_HS.lib" line 756:
++   COMMAND .PRINT is ignored because of unexpected keyword 'VTH'.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 25:
++   In model: "DNPPSD". Parameter: "ISRH" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 25:
++   In model: "DNPPSD". Parameter: "CSO" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 26:
++   In model: "DNPPSD". Parameter: "MS" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 56:
++   In model: "DPPNWD". Parameter: "ISRH" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 56:
++   In model: "DPPNWD". Parameter: "CSO" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 57:
++   In model: "DPPNWD". Parameter: "MS" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 87:
++   In model: "DNWPSD". Parameter: "ISRH" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 87:
++   In model: "DNWPSD". Parameter: "CSO" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 88:
++   In model: "DNWPSD". Parameter: "MS" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 118:
++   In model: "DPWNISOD". Parameter: "ISRH" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 118:
++   In model: "DPWNISOD". Parameter: "CSO" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 119:
++   In model: "DPWNISOD". Parameter: "MS" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 149:
++   In model: "DNPPS3V3D". Parameter: "ISRH" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 149:
++   In model: "DNPPS3V3D". Parameter: "CSO" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 150:
++   In model: "DNPPS3V3D". Parameter: "MS" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 180:
++   In model: "DPPNW3V3D". Parameter: "ISRH" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 180:
++   In model: "DPPNW3V3D". Parameter: "CSO" ignored.
+Warning: (eldo - 902)  In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 181:
++   In model: "DPPNW3V3D". Parameter: "MS" ignored.
+Warning: (eldo - 252)  In file "/home/mg.lowpower/lowpower/ese5/lib/CMOS013.spi" line 14:
++   OBJECT "XNAND.C2": Self-connected object not created.
+Warning: (eldo - 1479)  Some .PRINT and .MEAS commands are declared for TRAN analysis.
++   They are ignored because this analysis is not enabled.

@@ -1,0 +1,41 @@
+//###########################################################
+//# EZwave - Saved Window File
+//# Tuesday, May 21, 2019 at 11:39:40 AM CEST
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+SET DOFILE VERSION 2.1
+
+// ===== Open required Database =====
+open wdb /home/lp19.26/Desktop/ese5/src/nandHS.wdb nandHS
+
+// ===== Open the window =====
+open window -maximized -divider 0.92
+
+// ===== Create row #1 =====
+add waveform -color_index 1 <nandHS/TRAN>V(INA) -transform "< none >"
+set axis properties -axis X -scale linear
+set axis properties -row 1 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 1 -axis Y1
+set row height -row 1 -exact 324
+
+// ===== Create row #2 =====
+add waveform -color_index 2 <nandHS/TRAN>V(INB) -transform "< none >"
+add waveform -row 2 -axis Y1 -color_index 3 <nandHS/TRAN>V(OUT) -transform "< none >"
+set axis properties -row 2 -axis Y1 -autorange
+set user scale Voltage 1.0 V -row 2 -axis Y1
+set row height -row 2 -exact 324
+
+// ===== Set X-axis data units =====
+set user scale Time 1.0 s -axis X
+
+// ===== Set X-axis min/max extents =====
+set axis properties -axis X -min 8.747980613893379E-10 -max 1.2497980613893388E-9
+
+// ====== Create the cursors, markers and measurements =====
+add cursor -name C2 -position 1.098787878787879E-9 -snap
+add cursor -name C1 -position 1.05023192343467E-9 -base

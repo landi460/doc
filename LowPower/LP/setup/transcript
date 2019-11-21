@@ -1,0 +1,36 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vcom -reportprogress 300 -work work /home/lp19.26/Desktop/setup/constants.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package constants
+vsim -t 100ps work.MUX21TEST
+# vsim -t 100ps work.MUX21TEST 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.MUX21TEST#1
+# Loading work.tbmux21(test)#1
+# Loading work.cfg_mux21_behavioral_1#1
+# Loading work.mux21(behavioral_1)#1
+# Loading work.cfg_mux21_behavioral_2#1
+# Loading work.mux21(behavioral_2)#1
+# Loading work.cfg_mux21_behavioral_3#1
+# Loading work.mux21(behavioral_3)#1
+# Loading work.cfg_mux21_structural#1
+# Loading work.mux21(structural)#1
+# Loading work.cfg_iv_behavioral#1
+# Loading work.iv(behavioral)#1
+# Loading work.cfg_nd2_arch2#1
+# Loading work.nd2(arch2)#1
+add wave *
+run 3 ns
+run 10000 ps

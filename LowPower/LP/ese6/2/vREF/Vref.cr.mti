@@ -1,0 +1,11 @@
+/home/lp19.26/Desktop/ese6/2/vREF/src/4P_tb.vhd {0 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ese6/2/vREF/src/4P_tb.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+** Error: (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}} /home/lp19.26/Desktop/ese6/2/vREF/src/inccomp.vhd {0 {vcom -work work -2002 -explicit -vopt /home/lp19.26/Desktop/ese6/2/vREF/src/inccomp.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+** Error: (vcom-19) Failed to access library 'work' at "work".
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}}

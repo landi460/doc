@@ -1,0 +1,49 @@
+
+Power Report Interval
+100000000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                         /testbench/A(7)   4974      0  50030000 ps  49970000 ps         0 ps
+                         /testbench/A(6)   5022      0  49460000 ps  50540000 ps         0 ps
+                         /testbench/A(5)   4987      0  49384900 ps  50615100 ps         0 ps
+                         /testbench/A(4)   4972      0  49970000 ps  50030000 ps         0 ps
+                         /testbench/A(3)   4960      0  51250000 ps  48750000 ps         0 ps
+                         /testbench/A(2)   4965      0  49894900 ps  50105100 ps         0 ps
+                         /testbench/A(1)   5024      0  50000000 ps  50000000 ps         0 ps
+                         /testbench/A(0)   5060      0  49940000 ps  50060000 ps         0 ps
+              /testbench/COUNTBUSNORM(7)   4974      0  50030000 ps  49969900 ps       100 ps
+              /testbench/COUNTBUSNORM(6)   5021      0  49455000 ps  50544900 ps       100 ps
+              /testbench/COUNTBUSNORM(5)   4987      0  49375000 ps  50624900 ps       100 ps
+              /testbench/COUNTBUSNORM(4)   4972      0  49970000 ps  50029900 ps       100 ps
+              /testbench/COUNTBUSNORM(3)   4959      0  51245000 ps  48754900 ps       100 ps
+              /testbench/COUNTBUSNORM(2)   4965      0  49885000 ps  50114900 ps       100 ps
+              /testbench/COUNTBUSNORM(1)   5023      0  49995000 ps  50004900 ps       100 ps
+              /testbench/COUNTBUSNORM(0)   5060      0  49940000 ps  50059900 ps       100 ps
+              /testbench/COUNTBUSTRAN(7)   5003      0  49825000 ps  50174900 ps       100 ps
+              /testbench/COUNTBUSTRAN(6)   4946      0  49830000 ps  50169900 ps       100 ps
+              /testbench/COUNTBUSTRAN(5)   4938      0  50480000 ps  49519900 ps       100 ps
+              /testbench/COUNTBUSTRAN(4)   4997      0  49585000 ps  50414900 ps       100 ps
+              /testbench/COUNTBUSTRAN(3)   5125      0  49945000 ps  50054900 ps       100 ps
+              /testbench/COUNTBUSTRAN(2)   4989      0  50245000 ps  49754900 ps       100 ps
+              /testbench/COUNTBUSTRAN(1)   5000      0  49890000 ps  50109900 ps       100 ps
+              /testbench/COUNTBUSTRAN(0)   4994      0  49540000 ps  50459900 ps       100 ps
+              /testbench/COUNTBUSGREY(7)   4974      0  50030000 ps  49969900 ps       100 ps
+              /testbench/COUNTBUSGREY(6)   5087      0  50105000 ps  49894900 ps       100 ps
+              /testbench/COUNTBUSGREY(5)   4952      0  50100000 ps  49899900 ps       100 ps
+              /testbench/COUNTBUSGREY(4)   4981      0  50505000 ps  49494900 ps       100 ps
+              /testbench/COUNTBUSGREY(3)   4937      0  49415000 ps  50584900 ps       100 ps
+              /testbench/COUNTBUSGREY(2)   5056      0  50320000 ps  49679900 ps       100 ps
+              /testbench/COUNTBUSGREY(1)   4962      0  50710000 ps  49289900 ps       100 ps
+              /testbench/COUNTBUSGREY(0)   5075      0  49715000 ps  50284900 ps       100 ps
+               /testbench/COUNTBUSINV(8)   3650      0  49260000 ps  50739900 ps       100 ps
+               /testbench/COUNTBUSINV(7)   3576      0  48810000 ps  51189900 ps       100 ps
+               /testbench/COUNTBUSINV(6)   3611      0  49595000 ps  50404900 ps       100 ps
+               /testbench/COUNTBUSINV(5)   3617      0  52235000 ps  47764900 ps       100 ps
+               /testbench/COUNTBUSINV(4)   3640      0  50190000 ps  49809900 ps       100 ps
+               /testbench/COUNTBUSINV(3)   3613      0  49685000 ps  50314900 ps       100 ps
+               /testbench/COUNTBUSINV(2)   3601      0  50405000 ps  49594900 ps       100 ps
+               /testbench/COUNTBUSINV(1)   3639      0  50295000 ps  49704900 ps       100 ps
+               /testbench/COUNTBUSINV(0)   3722      0  51500000 ps  48499900 ps       100 ps
+---------------------------------------------------------------------------------------------
+

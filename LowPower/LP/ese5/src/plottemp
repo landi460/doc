@@ -1,0 +1,11 @@
+set grid
+set xlabel "Temperature [C]"
+set ylabel "Total power [W]"
+plot "TEMP" u 1:2 notitle w lp lw 2 ps 3 
+pause -1
+set term post eps color 20
+set out "TEMP.eps" 
+plot "TEMP" u 1:2 notitle w lp lw 4 ps 3
+set term png giant
+set out "TEMP.png"
+plot "TEMP" u 1:2 notitle w lp lw 4 ps 3

@@ -1,0 +1,43 @@
+/home/lp19.2/Desktop/pp/fromsynopsys_BUSNORM_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.2/Desktop/pp/fromsynopsys_BUSNORM_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module busnormal
+
+Top level modules:
+	busnormal
+
+} {} {}} /home/lp19.2/Desktop/pp/fromsynopsys_BUSTRAN_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.2/Desktop/pp/fromsynopsys_BUSTRAN_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module transbased
+
+Top level modules:
+	transbased
+
+} {} {}} /home/lp19.2/Desktop/pp/fromsynopsys_BUSINV_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.2/Desktop/pp/fromsynopsys_BUSINV_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module businvbeh
+
+Top level modules:
+	businvbeh
+
+} {} {}} /home/lp19.2/Desktop/pp/fromsynopsys_T0_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.2/Desktop/pp/fromsynopsys_T0_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module t0encdec
+
+Top level modules:
+	t0encdec
+
+} {} {}} /home/lp19.2/Desktop/pp/tb_encdec.v {1 {vlog -work work -vopt -nocovercells /home/lp19.2/Desktop/pp/tb_encdec.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} /home/lp19.2/Desktop/pp/fromsynopsys_BUSGRAY_.v {1 {vlog -work work -vopt -nocovercells /home/lp19.2/Desktop/pp/fromsynopsys_BUSGRAY_.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module grayencoder
+
+Top level modules:
+	grayencoder
+
+} {} {}}
